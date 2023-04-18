@@ -1,0 +1,45 @@
+<head>
+  <title>My Portfolio</title>
+  
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="_bootswatch.scss">
+  <link rel="stylesheet" href="_variables.scss">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Переключить 1-ый элемент</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Переключить 2-ой элемент</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Переключить 3-ой элемент</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".test1" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample2">Переключить 1-2 элементы</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".test2" aria-expanded="true" aria-controls="multiCollapseExample1 multiCollapseExample3">Переключить 2-3 элементы</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse test1 test2" id="multiCollapseExample1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse test1" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse test2" id="multiCollapseExample3">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body{
+  padding: 5rem;
+}
+</style>
